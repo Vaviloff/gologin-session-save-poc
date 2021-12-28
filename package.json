@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "dotenv-cli": "^4.1.1",
+    "gologin": "^1.0.29",
+    "puppeteer-core": "^13.0.1"
+  }, 
+  "scripts": {
+    "start": "./node_modules/.bin/dotenv -e .env node index.js"
+  }
+}
